@@ -1,6 +1,6 @@
-afile = File.open('test.rb' , 'r+')
+afile = File.open('test.rb', 'r+')
 if afile
-  afile.syswrite('hello GAMMASTACK')
+  afile.syswrite('HELLO GAMMASTACK')
 else
   puts 'unavailable'
 end
