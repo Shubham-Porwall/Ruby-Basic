@@ -1,10 +1,10 @@
 str=gets.chomp
-user = Hash.new
+hash1 = Hash.new
 for i in(0...str.length)
-    if user[str[i]].nil?
-        user[str[i]] = 1
-    else
-        user[str[i]] += 1
-    end
+  if hash1[str[i]].nil?
+    hash1[str[i]] = 1
+  else
+    hash1[str[i]] += 1
+  end
 end
-puts user
+puts hash1

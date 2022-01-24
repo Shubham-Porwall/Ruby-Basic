@@ -1,6 +1,6 @@
-def xyz (g)
-  return g.to_i * 2
+def ret_double (num)
+  return num.to_i * 2
 end
-a = Array[1,2,3,"5"]
-b = a.map{|i|  xyz(i)}
-puts b
+arr = [1, 2, 3, "5"]
+result = arr.map { |i|  ret_double(i) }
+puts result
